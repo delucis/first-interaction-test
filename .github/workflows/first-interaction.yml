@@ -11,7 +11,8 @@ permissions:
   pull-requests: write
 
 jobs:
-  check_for_first_interaction:
+  welcome:
+    name: Welcome First Time Contributors
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
